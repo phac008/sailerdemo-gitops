@@ -27,5 +27,5 @@ qa:
   memory: 2Gi
   initpwd: admin
   application_id: sailerdemo
-  running: true
+  running: false
   environment: qa
