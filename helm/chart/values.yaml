@@ -23,8 +23,8 @@ qa:
   description: openshift demo virtualization
   os: fedora
   disk: 30Gi
-  cores: 1
-  memory: 2Gi
+  cores: 2
+  memory: 6Gi
   initpwd: admin
   application_id: sailerdemo
   running: true
