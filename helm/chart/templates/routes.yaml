@@ -5,6 +5,8 @@ kind: Route
 metadata:
   name: {{ $values.application_id }}-{{ $stage }}
   namespace: suxess-it-{{ $stage }}
+  annotations:
+    link.argocd.argoproj.io/external-link: http://{{ $values.application_id }}-{{ $stage }}.suxess-it-{{ $stage }}.apps.cluster1.mcp.pitagora.at
 spec:
   port:
     targetPort: 8080
