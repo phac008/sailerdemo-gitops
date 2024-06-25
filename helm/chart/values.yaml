@@ -1,0 +1,31 @@
+# dummy
+prod:
+  description: openshift demo virtualization
+  os: fedora
+  disk: 30Gi
+  cores: 1
+  memory: 2Gi
+  initpwd: admin
+  application_id: sailerdemo
+  running: true
+  environment: prod
+dev:
+  description: openshift demo virtualization
+  os: fedora
+  disk: 30Gi
+  cores: 1
+  memory: 2Gi
+  initpwd: admin
+  application_id: sailerdemo
+  running: true
+  environment: dev
+qa:
+  description: openshift demo virtualization
+  os: fedora
+  disk: 30Gi
+  cores: 1
+  memory: 2Gi
+  initpwd: admin
+  application_id: sailerdemo
+  running: true
+  environment: qa

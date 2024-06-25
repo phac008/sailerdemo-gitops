@@ -1,0 +1,8 @@
+site_name: "sailerdemo"
+site_description: "Documentation for sailerdemo"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
